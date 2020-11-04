@@ -1,85 +1,85 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: "Constantia";
-    font-size: 1.5em;
-    line-height: 1;
+  background-color: black;
+  color: white;
+  font-family: "Constantia";
+  font-size: 1.5em;
+  line-height: 1;
 }
 
 h1, h3 { 
-    color: pink;
-    font-family: "Impact";
-    font-size: 1.7em;
-    line-height: 1;
+  color: pink;
+  font-family: "Impact";
+  font-size: 1.7em;
+  line-height: 1;
 }
 
 h2 {
-    font-family: "Constantia";
-    font-size: 1em;
+  font-family: "Constantia";
+  font-size: 1em;
 }
 
 a {
-    color: rgb(223, 223, 118);
-    text-decoration: none;
+  color: rgb(223, 223, 118);
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
+  color: red;
 
 }
 
 .card {
-    background: brown;
-    width: 700px;
-    border: 2px red solid;
-    margin: 50px auto;
-    border-radius: 2%;
-    /* box-shadow: 10px; */
+  background: brown;
+  width: 700px;
+  border: 2px red solid;
+  margin: 50px auto;
+  border-radius: 2%;
+  /* box-shadow: 10px; */
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    width: 800px;   /* This sets the width */
-    margin: 0 auto; /* This automatically sets left/right margins */
-  }
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
 
-  .list-inline > li {
-    display: inline-block;
-    padding: 10px 20px;
-    size: 100px;
-    list-style: none;
-  }
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 20px;
+  size: 100px;
+  list-style: none;
+}
 
-  button {
+button {
 
-    height: 50px;
-    width: 200px;
-    font-size: 24px;
-    font-weight: 600;
-    border: 2px black solid;
+  height: 50px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 2px black solid;
 
 }
 
 button:hover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
-  
+
 
 
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-  .card {
-    width: 400px;
-  }
-  img {
-    width: 400px;
-  }
+/* For a screen < 720px, this CSS will be read */
+.container {
+  width: 500px;
+}
+.card {
+  width: 400px;
+}
+img {
+  width: 400px;
+}
 }
 
